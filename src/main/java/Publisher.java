@@ -10,7 +10,7 @@ public class Publisher {
         String topic = "devices/sensor/temperature";
         int qos = 1;
         String broker = "tcp://mqtt.eclipse.org:1883";
-        String clientId = "JavaSample";
+        String clientId = "cl1";
         MemoryPersistence persistence = new MemoryPersistence();
 
         try {
